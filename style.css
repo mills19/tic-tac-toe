@@ -73,3 +73,10 @@ h1{
 .hide{
     display: none;
 }
+.x {
+    color: rgb(198, 3, 3); 
+}
+
+.o {
+    color: rgb(230, 230, 239); 
+}
