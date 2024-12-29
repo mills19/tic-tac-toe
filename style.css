@@ -1,0 +1,75 @@
+*{
+    margin: 20;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/2078959.jpg");
+    background-color: rgba(157, 6, 6, 0.92);
+    text-align: center;
+    background-size: cover;
+    margin: 20px;
+    padding: 40px;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vmin;
+    color: brown;
+
+}
+.container {
+    height: 40vh;
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 30vmin;
+    width: 30vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 9vmin;
+    width: 9vmin;
+    border-radius: 5px;
+    border: none;
+    /* box-shadow: black; */
+    /* box-shadow: 0 0 1rem rgba(0,0,0,0.1); */
+    font-size: 5vmin;
+    color: whitesmoke;
+    background-color: rgba(29, 35, 147, 0.815);
+
+}
+#reset-btn{
+    padding: 10px;
+    font-size: 13px;
+    background-color: rgb(11, 3, 56);
+    color:bisque;
+    border-radius: 4px;
+    border: none;
+    font-family: cursive;
+}
+#new-btn{
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgb(53, 100, 255);
+    color:bisque;
+    border-radius: 10px;
+    border: none;
+}
+#msg{
+    color:rgb(6, 49, 87);
+    font-size: 5vmin;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.msg-container{
+    height: 20vmin;
+}
+.hide{
+    display: none;
+}
